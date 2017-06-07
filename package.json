@@ -1,7 +1,7 @@
 {
   "name": "fp-reduce",
   "version": "1.0.0",
-  "description": "",
+  "description": "A curried reduce function that takes a reducer, initial value and collection. When invoked it will iterate the collection values over the reducer function returning a single value.",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
@@ -14,5 +14,13 @@
   },
   "dependencies": {
     "fp-curry": "^1.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilson63/fp-reduce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twilson63/fp-reduce/issues"
+  },
+  "homepage": "https://github.com/twilson63/fp-reduce#readme"
 }
