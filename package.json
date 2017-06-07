@@ -1,6 +1,6 @@
 {
   "name": "fp-reduce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A curried reduce function that takes a reducer, initial value and collection. When invoked it will iterate the collection values over the reducer function returning a single value.",
   "main": "index.js",
   "scripts": {
